@@ -63,9 +63,102 @@
 	</div>	
 </section>
 
-<div class="contact">
+<!-- <div class="contact">
 	
-</div>
+</div> -->
+
+<article class="elegir">
+ <h1 class="text-center h1por">Nuestros clientes</h1>
+ <div class="col-xs-12 col-sm-6 col-md-3 hola">
+            <div class="box">
+                <div class="box-icon">
+                    <span class="fa fa-4x fa-plane"></span>
+                </div>
+                <div class="info">
+                    <h4 class="text-center">Aerolineas</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-3 hola">
+            <div class="box">
+                <div class="box-icon">
+                    <span class="fa fa-4x fa-plus-square"></span>
+                </div>
+                <div class="info">
+                    <h4 class="text-center">Hospitales</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-3 hola">
+            <div class="box">
+                <div class="box-icon">
+                    <span class="fa fa-4x fa-university"></span>
+                </div>
+                <div class="info">
+                    <h4 class="text-center">Notarias</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 hola">
+            <div class="box">
+                <div class="box-icon">
+                    <span class="fa fa-4x fa-bullhorn"></span>
+                </div>
+                <div class="info">
+                    <h4 class="text-center">Marketing</h4>
+                </div>
+            </div>
+        </div>
+
+         <div class="col-xs-12 col-sm-6 col-md-3 hola">
+            <div class="box">
+                <div class="box-icon">
+                    <span class="fa fa-4x fa-cogs"></span>
+                </div>
+                <div class="info">
+                    <h4 class="text-center">Maquiladoras</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-3 hola">
+            <div class="box">
+                <div class="box-icon">
+                    <span class="fa fa-4x fa-desktop"></span>
+                </div>
+                <div class="info">
+                    <h4 class="text-center">Diseñadores</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-3 hola">
+            <div class="box">
+                <div class="box-icon">
+                    <span class="fa fa-4x fa-building"></span>
+                </div>
+                <div class="info">
+                    <h4 class="text-center">Hoteleria</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-3 hola">
+            <div class="box">
+                <div class="box-icon">
+                    <span class="fa fa-4x fa-cubes"></span>
+                </div>
+                <div class="info">
+                    <h4 class="text-center">Constructoras</h4>
+                </div>
+            </div>
+        </div>
+</article>
+ <a class="btncontact" href="contacto.php"><div class="contact">
+ 		<p>AGENDA UNA CITA</p>
+ 	</div></a>
 
 
 <span class="ir-arriba"><i class="fa fa-chevron-up" aria-hidden="true"></i></span>
