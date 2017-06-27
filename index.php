@@ -8,24 +8,17 @@
     </figure>
 
     <div class="menu pull-right">
-    <a href="" class="pull-left botonarriba">CONTACTANOS</a>
+    <a href="vistas/contacto.php" class="pull-left botonarriba">CONTACTANOS</a>
      <div class="bars pull-right">
       <a href=""> MENU <i class="fa fa-bars" aria-hidden="true"></i></a>
      </div>
     </div>
-
- <!--    <nav>
-      <ul>
-        <li><a href="">INICIO</a></li>
-        <li><a href="">NOSOTROS</a></li>
-        <li><a href="">SERVICIOS</a></li>
-        <li><a href="">CONTACTO</a></li>
-      </ul>
-    </nav> -->
   </header>
   <div class="linea">
     
   </div>
+
+  
   <div class="banner">
     <div class="fondo">
       <h1 style="color: #811B31; text-align: center; font-size: 100px; margin-top: 7%;">PECYDEM</h1>
@@ -33,6 +26,51 @@
       <h3 style="color: #000; text-align: center; width: 50%; margin: 0 auto; margin-top: 2%; font-weight: bold;">Los líderes actuales de finanzas están volteando hacia PECYDEM para controlar costos y flujos de efectivo asociados con gastos y facturas.</h3>
     </div>
   </div>
+
+  <div class="conten1">
+    <p class="textoconten1">TODOS GANAN CON ADMINISTRACIÓN AUTOMATIZADA.</p>
+    <div class="iconos">
+      <i class="fa fa-users fa-5x" aria-hidden="true"></i>
+      <p style="margin-top: 3%; color: #811B31;">EMPLEADOS</p>
+    </div>
+    <div class="iconos">
+      <i class="fa fa-handshake-o fa-5x" aria-hidden="true"></i>
+      <p style="margin-top: 3%; color: #811B31;">SOCIOS</p>
+    </div>
+    <div class="iconos">
+      <i class="fa fa-id-card fa-5x" aria-hidden="true"></i>
+      <p style="margin-top: 3%; color: #811B31;">CLIENTES</p>
+    </div>
+  </div>
+
+  <div class="conten2">
+    <h1 style="text-align: center; margin-top: 5%; color:#811B31;">ASESORIA Y CONSULTORIA</h1>
+    <hr style="width: 20%; margin: 0 auto; height:2px; background-color:#811B31; border:none; ">
+
+    <div class="section" style="margin-top: 5%; margin-bottom: 5%;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/asesoria.jpg"
+            class="img-responsive img-rounded">
+            <h1 class="text-center text-danger" style="margin-top: 8%;">ASESORIA</h1>
+            <p></p>
+            <p class="text-center">Es un servicio profesional, que orienta al directivo de una organización. Es una guía de expertos que responde a dudas específicas, resuelve problemas concretos y apoya a las organizaciones en los trámites necesarios para su operación.</p>
+            <p></p>
+          </div>
+          <div class="col-md-6">
+            <img src="img/consultoria.png"
+            class="img-responsive img-rounded">
+            <h1 class="text-center text-danger" style="margin-top: 8%;">CONSULTORIA</h1>
+            <p></p>
+            <p class="text-center">Es un servicio profesional especializado que puede ayudar a la dirección general de las organizaciones a enfrentar situaciones que impiden la operación plena del negocio.</p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="boton" style="text-align: center;"><a href="vistas/contacto.php" class="botonabajo">CONTACTANOS</a></p>
 
 
 

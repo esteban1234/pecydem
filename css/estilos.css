@@ -53,9 +53,6 @@ header{
   color: #fff;
   /*background-color: #811B31;*/
 }
-.botonarriba{
-  /*margin-right: 3%;*/ 
-}
 .bars{
   font-size: 25px;
   margin-top: 5%;
@@ -88,11 +85,85 @@ header{
    width: 100%;
    background-color: rgba(255,255,255, .2);
 }
+.conten1{
+  width: 100%;
+  background: -moz-linear-gradient(top, #8a9597, #978b8a); 
+  background: -webkit-linear-gradient(top, #8a9597, #978b8a); 
+  background: -o-linear-gradient(top, #8a9597, #978b8a); 
+  background: -ms-linear-gradient(top, #8a9597, #978b8a); 
+  background: linear-gradient(top, #8a9597, #978b8a);
+  height: 500px;
+  overflow: hidden;
+}
+.textoconten1{
+  width: 60%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  /*border: 2px red solid;*/
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 8%;
+  color: #811B31;
+}
+.iconos{
+  /*border: 2px red solid;*/
+  width: 25%;
+  color: #000;
+  font-size: 25px;
+  text-align: center;
+  float: left;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+.iconos:hover i{
+  color: #811B31;
+}
+.iconos:hover p{
+  color: #000;
+}
 
+.conten2{
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.boton .botonabajo{
+    color: #000;
+    margin: 18px 8px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 1.7px;
+    background: transparent;
+    text-transform: uppercase;
+    border: none;
+    border: 2px solid \9;
+    -webkit-box-shadow: inset 0 0 0 2px;
+    -moz-box-shadow: inset 0 0 0 2px;
+    -ms-box-shadow: inset 0 0 0 2px;
+    -o-box-shadow: inset 0 0 0 2px;
+    box-shadow: inset 0 0 0 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    display: inline-block;
+    padding: 10px 25px 9px;
+    text-decoration: none;
+    font-size: 18px;
+    border-width: 2px;
+    border-style: solid;
+}
+.boton .botonabajo:hover{
+  color: #811B31;
+  /*background-color: #811B31;*/
+}
 /*--------------FOOTER----------*/
 footer{
   width: 100%;
-    background:#575656;
+    background:#811B31;
     font-family: 'Oswald', sans-serif;
     height: 100px;
     overflow: hidden;
@@ -112,7 +183,7 @@ footer p{
 .ir-arriba {
   display:none;
   padding:20px;
-  background:#000;
+  background:#811B31;
   font-size:20px;
   color:#fff;
   cursor:pointer;
@@ -121,7 +192,114 @@ footer p{
   right:20px;
 }
 /*------------------nosotros----------*/
-
+.banner2{
+    height: 200px;
+    background: url('../img/banner2.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.acerca{
+  font-family: 'Oswald', sans-serif;
+  font-size: 43px;
+  width: 40%;
+  margin-left: 6%;
+  color: #fff;
+  margin-top: 5%;
+}
+.quehacemos{
+  width: 100%;
+}
+.quehacemos p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #811B31;
+  width: 55%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+.contenmvv{
+  /*border: 2px red solid;*/
+  overflow: hidden;
+  width: 100%;
+  margin-top: 5%;
+  background-color:  #d0d3d4; 
+  padding: 50px 0px 50px 0px;
+}
 /*-------------------servicios---------------*/
 
+.banner3{
+    height: 410px;
+    background: url('../img/serv.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.acerca2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  width: 40%;
+  margin: 0 auto;
+  margin-left: 6%;
+  color: #fff;
+  /*margin-top: 2%;*/
+  /*font-weight: bold;*/
+  background-color: rgba(0,0,0,.5);
+  padding: 30px 30px 0px 30px;
+  height: 410px;
+
+}
+.conten{
+  /*border: 2px red solid;*/
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.columna{
+  border: 1px #811B31 solid;
+  height: 400px;
+  /*border-bottom: 10px #811B31 solid;*/
+}
+.iconoss{
+  /*border: 2px red solid;*/
+  margin-top: 5%;
+  width: 100%;
+  text-align: center;
+}
+.titflush{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+.subtitflush{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+.color{
+  height: 10px;
+  background-color: #811B31;
+  width: 100%;
+}
+.color2{
+  height: 10px;
+  background-color: #811B31;
+  width: 100%;
+  margin-top: 23px;
+}
+.color3{
+  height: 10px;
+  background-color: #811B31;
+  width: 100%;
+  margin-top: 45px;
+}
+.contact{
+  height: 100px;
+  width: 100%;
+}
 /*-----------------contacto-----------------*/
