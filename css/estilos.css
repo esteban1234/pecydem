@@ -1,0 +1,127 @@
+* {
+    /*border: 0;*/
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header{
+  background-color: #C0C0C0;
+  overflow: hidden;
+}
+
+.logo{
+  width: 20%;
+  margin-left: 5%;
+}
+.menu{
+  /*border: 2px red solid;*/
+  margin-right: 9%;
+  margin-top: 3%;
+  width: 30%;
+}
+.menu .botonarriba{
+    color: #000;
+    margin: 18px 8px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 1.7px;
+    background: transparent;
+    text-transform: uppercase;
+    border: none;
+    border: 2px solid \9;
+    -webkit-box-shadow: inset 0 0 0 2px;
+    -moz-box-shadow: inset 0 0 0 2px;
+    -ms-box-shadow: inset 0 0 0 2px;
+    -o-box-shadow: inset 0 0 0 2px;
+    box-shadow: inset 0 0 0 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    display: inline-block;
+    padding: 10px 25px 9px;
+    text-decoration: none;
+    font-size: 18px;
+    border-width: 2px;
+    border-style: solid;
+}
+.menu .botonarriba:hover{
+  color: #fff;
+  /*background-color: #811B31;*/
+}
+.botonarriba{
+  /*margin-right: 3%;*/ 
+}
+.bars{
+  font-size: 25px;
+  margin-top: 5%;
+  /*margin-left: 5%;*/
+  /*margin*/
+  
+}
+.bars a{
+  color: #811B31;
+  text-decoration: none;
+}
+.linea{
+  background-color: #811B31;
+  height: 20px;
+  width: 100%;
+}
+
+.banner{
+    height: 500px;
+    background: url('../img/banner.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.fondo{
+   height: 500px;
+   overflow: hidden;
+   width: 100%;
+   background-color: rgba(255,255,255, .2);
+}
+
+/*--------------FOOTER----------*/
+footer{
+  width: 100%;
+    background:#575656;
+    font-family: 'Oswald', sans-serif;
+    height: 100px;
+    overflow: hidden;
+    clear: both;
+
+}
+footer p{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2.5%;
+    color: #fff;
+}
+/*--------------ir arriba-----------*/
+
+.ir-arriba {
+  display:none;
+  padding:20px;
+  background:#000;
+  font-size:20px;
+  color:#fff;
+  cursor:pointer;
+  position: fixed;
+  bottom:20px;
+  right:20px;
+}
+/*------------------nosotros----------*/
+
+/*-------------------servicios---------------*/
+
+/*-----------------contacto-----------------*/
