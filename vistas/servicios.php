@@ -8,21 +8,33 @@
     </figure>
 
     <div class="menu pull-right">
-    <a href="contacto.php" class="pull-left botonarriba">CONTACTANOS</a>
-     <div class="bars pull-right">
-      <a href=""> MENU <i class="fa fa-bars" aria-hidden="true"></i></a>
-     </div>
+    	<a href="contacto.php" class="pull-left botonarriba">CONTACTANOS</a>
+			<div class="menu_bar bars pull-right">
+			 <a href="#" class="bt-menu">
+				 <i id="open" class="fa fa-align-justify fa-2x" aria-hidden="true"></i>
+				 <i id="close" class="fa fa-close fa-2x close"  aria-hidden="true"></i>
+			 </a>
+			</div>
     </div>
+
+		<nav>
+			<ul>
+				<li><a href="../index.php"><span class="icon-house"></span>Inicio</a></li>
+				<li><a href="nosotros.php"><span class="icon-suitcase">Nosotros</span></a></li>
+				<li><a href="servicios.php"><span class="icon-earth"></span>Servicios</a></li>
+				<li><a href="contacto.php"><span class="icon-mail"></span>Contacto</a></li>
+			</ul>
+		</nav>
   </header>
   <div class="linea">
-    
+
   </div>
   <div class="banner3">
   <p class="acerca2">En PECYDEM entendemos que nuestros clientes y socios de negocio operan en entornos en los que las oportunidades, los desafíos, los requisitos y las regulaciones pueden variar mucho, cambiar rápidamente y evolucionar de manera significativa con el tiempo. Por eso ofrecemos un portafolio de servicios que es uno de los más amplios de la industria.</p>
   </div>
 
   <section class=''>
-	<div class='col-xs-12 conten'>	
+	<div class='col-xs-12 conten'>
 		<div class='col-md-3 col-sm-6 columna'>
 		<p class="iconoss">
 			<img src="../img/admin.png" alt="">
@@ -31,7 +43,7 @@
 		<p class="subtitflush">Guiamos a las empresas en su evolución y crecimiento, facilitando una migración suave y eficaz desde un modelo primario a otro fundamentado en una organización formalizada.</p>
 		<article class="color"></article>
 		</div>
-						
+
 		<div class='col-md-3 col-sm-6 columna text-center-xs col-md-height'>
 		<p class="iconoss">
 			<img src="../img/conta.png" alt="">
@@ -39,9 +51,9 @@
 		<p class="titflush">Servicios de contabilidad</p>
 		<p class="subtitflush">Los servicios de contabilidad están diseñados para que se constituyan en un verdadero soporte administrativo, sobre el cual el empresario o comerciante pueda realizar netamente su actividad productiva.</p>
 		<article class="color2"></article>
-			
+
 		</div>
-						
+
 		<div class='col-md-3 col-sm-6 columna text-center-xs col-md-height'>
 		<p class="iconoss">
 			<img src="../img/auditoria.png" alt="">
@@ -50,7 +62,7 @@
 		<p class="subtitflush">Consiste en la revisión de toda la documentación relacionada al área corporativa legal y administrativa desde la fecha en que la sociedad se constituyó hasta el momento en que fue solicitada.</p>
 		<article class="color3"></article>
 		</div>
-						
+
 		<div class='col-md-3 col-sm-6 columna text-center-xs col-md-height'>
 		<p class="iconoss">
 			<img src="../img/negocios.png" alt="">
@@ -58,13 +70,13 @@
 		<p class="titflush">Administración de negocios</p>
 		<p class="subtitflush">Utilizamos nuestra tecnología, conocimientos y experiencia en materia financiera y analítica, para apoyar a empresas a desarrollar e implementar sus estrategias.</p>
 		<article class="color"></article>
-			
-		</div>		
-	</div>	
+
+		</div>
+	</div>
 </section>
 
 <!-- <div class="contact">
-	
+
 </div> -->
 
 <article class="elegir">
@@ -164,6 +176,7 @@
 <span class="ir-arriba"><i class="fa fa-chevron-up" aria-hidden="true"></i></span>
 <?php include 'pie.php' ?>
 <script src="../js/jquery.js"></script>
+<script src="../js/menu.js"></script>
 <script src="../js/bootstrap.js"></script>
 <script src="../js/botonarriba.js"></script>
 </body>

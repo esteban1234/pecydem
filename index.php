@@ -3,22 +3,40 @@
 <body>
 
   <header>
-    <figure class="logo pull-left">
-      <img src="img/pecydem.png" alt="" class="img-responsive">
-    </figure>
+    <!-- <div class=""> -->
+      <figure class="logo pull-left">
+        <img src="img/pecydem.png" alt="" class="img-responsive">
+      </figure>
 
-    <div class="menu pull-right">
-    <a href="vistas/contacto.php" class="pull-left botonarriba">CONTACTANOS</a>
-     <div class="bars pull-right">
-      <a href=""> MENU <i class="fa fa-bars" aria-hidden="true"></i></a>
-     </div>
-    </div>
+      <div class="menu pull-right">
+      <a href="vistas/contacto.php" class="pull-left botonarriba">CONTACTANOS</a>
+       <div class="menu_bar bars pull-right">
+        <div class="bt-menu">
+          <i id="open" class="fa fa-align-justify fa-2x" aria-hidden="true"></i>
+          <i id="close" class="fa fa-close fa-2x close"  aria-hidden="true"></i>
+        </div>
+       </div>
+      </div>
+    <!-- </div> -->
+
+    <nav>
+			<ul>
+				<li><a href="index.php"><span class="icon-house"></span>Inicio</a></li>
+				<li><a href="vistas/nosotros.php"><span class="icon-suitcase">Nosotros</span></a></li>
+				<li><a href="vistas/servicios.php"><span class="icon-earth"></span>Servicios</a></li>
+				<li><a href="vistas/contacto.php"><span class="icon-mail"></span>Contacto</a></li>
+			</ul>
+		</nav>
+
+    <!-- <div class="menu_bar">
+			<a href="#" class="bt-menu"><span class="icon-list2"></span>Menú</a>
+		</div> -->
   </header>
   <div class="linea">
-    
+
   </div>
 
-  
+
   <div class="banner">
     <div class="fondo">
       <h1 style="color: #811B31; text-align: center; font-size: 100px; margin-top: 7%;">PECYDEM</h1>
@@ -77,6 +95,7 @@
 <span class="ir-arriba"><i class="fa fa-chevron-up" aria-hidden="true"></i></span>
 <?php include 'vistas/pie.php' ?>
 <script src="js/jquery.js"></script>
+<script src="js/menu.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/botonarriba.js"></script>
 </body>

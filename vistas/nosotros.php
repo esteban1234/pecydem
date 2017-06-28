@@ -7,14 +7,26 @@
     </figure>
 
     <div class="menu pull-right">
-    <a href="contacto.php" class="pull-left botonarriba">CONTACTANOS</a>
-     <div class="bars pull-right">
-      <a href=""> MENU <i class="fa fa-bars" aria-hidden="true"></i></a>
-     </div>
+	    <a href="contacto.php" class="pull-left botonarriba">CONTACTANOS</a>
+			<div class="menu_bar bars pull-right">
+			 <a href="#" class="bt-menu">
+				 <i id="open" class="fa fa-align-justify fa-2x" aria-hidden="true"></i>
+				 <i id="close" class="fa fa-close fa-2x close"  aria-hidden="true"></i>
+			 </a>
+			</div>
     </div>
+
+		<nav>
+			<ul>
+				<li><a href="../index.php"><span class="icon-house"></span>Inicio</a></li>
+				<li><a href="nosotros.php"><span class="icon-suitcase">Nosotros</span></a></li>
+				<li><a href="servicios.php"><span class="icon-earth"></span>Servicios</a></li>
+				<li><a href="contacto.php"><span class="icon-mail"></span>Contacto</a></li>
+			</ul>
+		</nav>
   </header>
   <div class="linea">
-    
+
   </div>
   <div class="banner2">
   <p class="acerca">Acerca de PECYDEM</p>
@@ -59,6 +71,7 @@
 <span class="ir-arriba"><i class="fa fa-chevron-up" aria-hidden="true"></i></span>
 <?php include 'pie.php' ?>
 <script src="../js/jquery.js"></script>
+<script src="../js/menu.js"></script>
 <script src="../js/bootstrap.js"></script>
 <script src="../js/botonarriba.js"></script>
 </body>
