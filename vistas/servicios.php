@@ -35,7 +35,7 @@
 
   <section class='conten-conten'>
 	<div class='col-xs-12 conten'>
-		<div class='col-xs-12 col-sm-12 col-md-3 columna'>
+		<div class='col-xs-12 col-sm-6 col-md-3 columna'>
 		<p class="iconoss">
 			<img src="../img/admin.png" alt="">
 		</p>
@@ -44,7 +44,7 @@
 		<article class="color"></article>
 		</div>
 
-		<div class='col-xs-12 col-sm-12 col-md-3 columna text-center-xs col-md-height'>
+		<div class='col-xs-12 col-sm-6 col-md-3 columna text-center-xs col-md-height'>
 		<p class="iconoss">
 			<img src="../img/conta.png" alt="">
 		</p>
@@ -54,7 +54,7 @@
 
 		</div>
 
-		<div class='col-xs-12 col-sm-12 col-md-3 columna text-center-xs col-md-height'>
+		<div class='col-xs-12 col-sm-6 col-md-3 columna text-center-xs col-md-height'>
 		<p class="iconoss">
 			<img src="../img/auditoria.png" alt="">
 		</p>
@@ -63,7 +63,7 @@
 		<article class="color3"></article>
 		</div>
 
-		<div class='col-xs-12 col-sm-12 col-md-3 columna text-center-xs col-md-height'>
+		<div class='col-xs-12 col-sm-6 col-md-3 columna text-center-xs col-md-height'>
 		<p class="iconoss">
 			<img src="../img/negocios.png" alt="">
 		</p>
@@ -80,7 +80,7 @@
 
 <article class="elegir">
  <h1 class="text-center h1por">Nuestros clientes</h1>
- <div class="col-xs-12 col-sm-6 col-md-3 hola">
+ <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hola">
             <div class="box">
                 <div class="box-icon">
                     <span class="fa fa-4x fa-plane"></span>
@@ -91,7 +91,7 @@
             </div>
         </div>
 
-        <div class="col-xs-12 col-sm-6 col-md-3 hola">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hola">
             <div class="box">
                 <div class="box-icon">
                     <span class="fa fa-4x fa-plus-square"></span>
@@ -102,7 +102,7 @@
             </div>
         </div>
 
-        <div class="col-xs-12 col-sm-6 col-md-3 hola">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hola">
             <div class="box">
                 <div class="box-icon">
                     <span class="fa fa-4x fa-university"></span>
@@ -112,7 +112,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 hola">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hola">
             <div class="box">
                 <div class="box-icon">
                     <span class="fa fa-4x fa-bullhorn"></span>
@@ -123,7 +123,7 @@
             </div>
         </div>
 
-         <div class="col-xs-12 col-sm-6 col-md-3 hola">
+         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hola">
             <div class="box">
                 <div class="box-icon">
                     <span class="fa fa-4x fa-cogs"></span>
@@ -134,7 +134,7 @@
             </div>
         </div>
 
-        <div class="col-xs-12 col-sm-6 col-md-3 hola">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hola">
             <div class="box">
                 <div class="box-icon">
                     <span class="fa fa-4x fa-desktop"></span>
@@ -145,7 +145,7 @@
             </div>
         </div>
 
-        <div class="col-xs-12 col-sm-6 col-md-3 hola">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hola">
             <div class="box">
                 <div class="box-icon">
                     <span class="fa fa-4x fa-building"></span>
@@ -156,7 +156,7 @@
             </div>
         </div>
 
-        <div class="col-xs-12 col-sm-6 col-md-3 hola">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hola">
             <div class="box">
                 <div class="box-icon">
                     <span class="fa fa-4x fa-cubes"></span>

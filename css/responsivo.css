@@ -91,10 +91,6 @@ nav{
 /************************END DISEÑO INDEX*****************/
 
 /************************DISEÑO NOSOTROS**********************/
-  /*.banner2{
-    border: 2px solid red;
-  }*/
-
   .acerca{
     width: 100%;
     margin: 0px;
@@ -145,16 +141,69 @@ nav{
 }
 
 .conten{
-  border: 2px solid red;
   height: 100%;
 }
 
 .columna{
-  border: 2px solid green;
   width: 100% !important;
   margin: 20px auto;
+  height: 100%;
+}
+
+
+.iconoss img{
+  width: 80px;
+}
+
+.titflush{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.subtitflush{
+  text-align: justify;
+}
+
+.h1por{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.box-icon{
+  width: 60px;
+  height: 60px;
+}
+
+.box-icon span{
+  font-size: 30px;
+}
+
+.info h4{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.color, .color2, .color3{
+  display: none;
 }
 /************************END DISEÑO SERVICIO*****************/
+
+/************************DISEÑO CONTACTO**********************/
+
+.acercac{
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 100px auto;
+}
+
+.info h5{
+  text-align: center;
+}
+
+/************************END DISEÑO CONTACTO*****************/
 
 /************************DISEÑO FOOTER**********************/
 footer{
@@ -169,13 +218,503 @@ footer p{
 /************************END DISEÑO FOOTER*****************/
 }
 
-@media screen and (max-width: 599px) and (min-width: 481px) {}
+@media screen and (max-width: 599px) and (min-width: 481px) {
+  /************************DISEÑO INDEX**********************/
+  header{
+    margin: auto !important;
+  }
 
-@media screen and (max-width: 799px) and (min-width: 600px) {}
+  header .logo{
+    width: 45% !important;
+    margin: auto;
+    float:none !important;
 
-@media screen and (max-width: 1023px) and (min-width: 800px) {}
+  }
+
+  .menu{
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    top: 0px;
+  }
+
+  .menu .botonarriba{
+    display: none;
+  }
+
+  .menu .menu_bar{
+    float: none !important;
+    margin: 0px;
+  }
+
+  .bt-menu > i{
+    font-size: 30px;
+  }
+
+  nav{
+    top: 0px;
+  }
+
+  .banner{
+    height: 100%;
+  }
+
+  .fondo{
+    height: 100%;
+  }
+
+  .fondo h1{
+    font-size: 30px !important;
+    font-weight: bold;
+  }
+
+  .fondo h2, .fondo h3{
+    text-align: justify !important;
+    font-size: 20px;
+    width: 100% !important;
+    padding: 10px 15px;
+  }
+
+  .conten1{
+    height: 100%;
+  }
+
+  .textoconten1{
+    width: 100%;
+    font-size: 20px;
+    padding: 15px 0px;
+  }
+
+  .iconos{
+    border-top: .5px solid rgba(0, 0, 0, 0.5);
+    width: 100%;
+    margin: 5px 0px;
+    padding-top: 10px;
+  }
+
+  .iconos i{
+    font-size: 35px;
+  }
+
+  .iconos p{
+    font-size: 20px;
+  }
+
+  .conten2 h1{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .alinear-texto{
+    text-align: justify;
+  }
+  /************************END DISEÑO INDEX*****************/
+
+  /************************DISEÑO NOSOTROS**********************/
+    .acerca{
+      width: 100%;
+      margin: 0px;
+      margin-top: 60px;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .quehacemos p{
+      width: 90%;
+      text-align: justify;
+    }
+
+    .contenmvv{
+      padding: 0px;
+    }
+
+    .text-danger{
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .new-styl{
+      text-align: justify;
+    }
+
+    .botonabajo{
+      font-size: 16px !important;
+    }
+  /************************END DISEÑO NOSOTROS*****************/
+
+  /************************DISEÑO SERVICIO**********************/
+  .banner3{
+    height: 100%;
+  }
+
+  .acerca2{
+    width: 100%;
+    margin: 0px;
+    text-align: justify;
+    padding: 5px 15px;
+    height: 100%;
+    font-size: 18px;
+  }
+
+  .conten-conten{
+    height: 100%;
+  }
+
+  .conten{
+    height: 100%;
+  }
+
+  .columna{
+    width: 100% !important;
+    margin: 20px auto;
+    height: 100%;
+  }
+
+
+  .iconoss img{
+    width: 80px;
+  }
+
+  .titflush{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .subtitflush{
+    text-align: justify;
+  }
+
+  .h1por{
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+
+  .box-icon{
+    width: 60px;
+    height: 60px;
+  }
+
+  .box-icon span{
+    font-size: 30px;
+  }
+
+  .info h4{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .color, .color2, .color3{
+    display: none;
+  }
+  /************************END DISEÑO SERVICIO*****************/
+
+  /************************DISEÑO CONTACTO**********************/
+
+  .acercac{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 100px auto;
+  }
+
+  .info h5{
+    text-align: center;
+  }
+
+  /************************END DISEÑO CONTACTO*****************/
+
+  /************************DISEÑO FOOTER**********************/
+  footer{
+    height: 100%;
+  }
+
+  footer p{
+    width: 95%;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  /************************END DISEÑO FOOTER*****************/
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+  /************************DISEÑO INDEX**********************/
+  header{
+    margin: auto !important;
+  }
+
+  header .logo{
+    width: 35% !important;
+    margin: auto;
+    float:none !important;
+
+  }
+
+  .menu{
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    top: 0px;
+  }
+
+  .menu .botonarriba{
+    display: none;
+  }
+
+  .menu .menu_bar{
+    float: none !important;
+    margin: 0px;
+  }
+
+  .bt-menu > i{
+    font-size: 30px;
+  }
+
+  nav{
+    top: 0px;
+  }
+
+  .banner{
+    height: 100%;
+  }
+
+  .fondo{
+    height: 100%;
+  }
+
+  .fondo h1{
+    font-size: 30px !important;
+    font-weight: bold;
+  }
+
+  .fondo h2, .fondo h3{
+    text-align: justify !important;
+    font-size: 20px;
+    width: 100% !important;
+    padding: 10px 15px;
+  }
+
+  .conten1{
+    height: 100%;
+  }
+
+  .textoconten1{
+    width: 100%;
+    font-size: 20px;
+    padding: 15px 0px;
+  }
+
+  .iconos{
+    border-top: .5px solid rgba(0, 0, 0, 0.5);
+    width: 100%;
+    margin: 5px 0px;
+    padding-top: 10px;
+  }
+
+  .iconos i{
+    font-size: 35px;
+  }
+
+  .iconos p{
+    font-size: 20px;
+  }
+
+  .conten2 h1{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .alinear-texto{
+    text-align: justify;
+  }
+  /************************END DISEÑO INDEX*****************/
+
+  /************************DISEÑO NOSOTROS**********************/
+    .acerca{
+      width: 100%;
+      margin: 0px;
+      margin-top: 60px;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .quehacemos p{
+      width: 90%;
+      text-align: justify;
+    }
+
+    .contenmvv{
+      padding: 0px;
+    }
+
+    .text-danger{
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .new-styl{
+      text-align: justify;
+    }
+
+    .botonabajo{
+      font-size: 16px !important;
+    }
+
+    .img-vision{
+      width: 100%;
+    }
+  /************************END DISEÑO NOSOTROS*****************/
+
+  /************************DISEÑO SERVICIO**********************/
+  .banner3{
+    height: 100%;
+  }
+
+
+  .acerca2{
+    width: 100%;
+    margin: 0px;
+    text-align: justify;
+    padding: 5px 15px;
+    height: 100%;
+    font-size: 18px;
+  }
+
+  .conten-conten{
+    height: 100%;
+  }
+
+  .conten{
+    height: 100%;
+  }
+
+  .columna{
+    width: 100% !important;
+    margin: 20px auto;
+    height: 100%;
+  }
+
+
+  .iconoss img{
+    width: 80px;
+  }
+
+  .titflush{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .subtitflush{
+    text-align: justify;
+  }
+
+  .h1por{
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+
+  .box-icon{
+    width: 60px;
+    height: 60px;
+  }
+
+  .box-icon span{
+    font-size: 30px;
+  }
+
+  .info h4{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .color, .color2, .color3{
+    display: none;
+  }
+  /************************END DISEÑO SERVICIO*****************/
+
+  /************************DISEÑO CONTACTO**********************/
+
+  .acercac{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 100px auto;
+  }
+
+  .info h5{
+    text-align: center;
+  }
+
+  /************************END DISEÑO CONTACTO*****************/
+
+  /************************DISEÑO FOOTER**********************/
+  footer{
+    height: 100%;
+  }
+
+  footer p{
+    width: 95%;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  /************************END DISEÑO FOOTER*****************/
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+
+  .banner3{
+    height: 100%;
+  }
+
+  .acerca2
+  {
+    height: 100%;
+    width: 90%;
+    padding: 20px;
+    margin: 30px auto;
+  }
+
+  .menu .botonarriba{
+    /*display: none;*/
+    margin-left: -100px;
+  }
+
+  .info h5{
+    text-align: center;
+  }
+
+  .img-vision{
+    width: 100%;
+  }
+
+  .columna{
+    height: 100%;
+  }
+
+  .color, .color2, .color3{
+    display: none;
+  }
+}
 
 @media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+
+  .banner3{
+    height: 100%;
+  }
+
+  .acerca2{
+    height: 100%; 
+  }
+
+  .columna{
+    height: 100%;
+    padding-bottom: 20px;
+  }
+
+
 }
 @media screen and (max-width: 1366px) and (min-width: 1024px) { }
 
