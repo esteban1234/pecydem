@@ -7,7 +7,7 @@
     </figure>
 
     <div class="menu pull-right">
-	    <a href="contacto.php" class="pull-left botonarriba">CONTACTANOS</a>
+	    <!-- <a href="contacto.php" class="pull-left botonarriba">CONTACTANOS</a> -->
 			<div class="menu_bar bars pull-right">
 			 <a href="#" class="bt-menu">
 				 <i id="open" class="fa fa-align-justify fa-2x" aria-hidden="true"></i>
