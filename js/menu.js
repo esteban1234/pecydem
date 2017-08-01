@@ -12,7 +12,7 @@ function main () {
 			},800);
 
 			$('#close').animate({
-				marginRight: '0px',
+				marginRight: '20px',
 			},400);
 
 

@@ -33,9 +33,9 @@
   <p class="acerca2">En PECYDEM entendemos que nuestros clientes y socios de negocio operan en entornos en los que las oportunidades, los desafíos, los requisitos y las regulaciones pueden variar mucho, cambiar rápidamente y evolucionar de manera significativa con el tiempo. Por eso ofrecemos un portafolio de servicios que es uno de los más amplios de la industria.</p>
   </div>
 
-  <section class=''>
+  <section class='conten-conten'>
 	<div class='col-xs-12 conten'>
-		<div class='col-md-3 col-sm-6 columna'>
+		<div class='col-xs-12 col-sm-12 col-md-3 columna'>
 		<p class="iconoss">
 			<img src="../img/admin.png" alt="">
 		</p>
@@ -44,7 +44,7 @@
 		<article class="color"></article>
 		</div>
 
-		<div class='col-md-3 col-sm-6 columna text-center-xs col-md-height'>
+		<div class='col-xs-12 col-sm-12 col-md-3 columna text-center-xs col-md-height'>
 		<p class="iconoss">
 			<img src="../img/conta.png" alt="">
 		</p>
@@ -54,7 +54,7 @@
 
 		</div>
 
-		<div class='col-md-3 col-sm-6 columna text-center-xs col-md-height'>
+		<div class='col-xs-12 col-sm-12 col-md-3 columna text-center-xs col-md-height'>
 		<p class="iconoss">
 			<img src="../img/auditoria.png" alt="">
 		</p>
@@ -63,14 +63,13 @@
 		<article class="color3"></article>
 		</div>
 
-		<div class='col-md-3 col-sm-6 columna text-center-xs col-md-height'>
+		<div class='col-xs-12 col-sm-12 col-md-3 columna text-center-xs col-md-height'>
 		<p class="iconoss">
 			<img src="../img/negocios.png" alt="">
 		</p>
 		<p class="titflush">Administración de negocios</p>
 		<p class="subtitflush">Utilizamos nuestra tecnología, conocimientos y experiencia en materia financiera y analítica, para apoyar a empresas a desarrollar e implementar sus estrategias.</p>
 		<article class="color"></article>
-
 		</div>
 	</div>
 </section>

@@ -49,16 +49,14 @@
         <div class="row">
           <div class="col-md-6">
           <h1 class="text-center text-danger">MISION</h1>
-          <p class="text-center" style="margin-top: 5%;">Contribuir al desarrollo de nuestra empresa en beneficio de nuestros clientes, adaptándonos a las innovaciones en el mercado e ir por el camino de la creación de más y mejores empresas, al apoyar las iniciativas de emprendedores para crear nuevos negocios.</p>
-            <img src="../img/mision.jpg"  style="margin-top: 5%;"
-            class="img-responsive img-rounded">
+          <p class="text-center new-styl" style="margin-top: 5%;">Contribuir al desarrollo de nuestra empresa en beneficio de nuestros clientes, adaptándonos a las innovaciones en el mercado e ir por el camino de la creación de más y mejores empresas, al apoyar las iniciativas de emprendedores para crear nuevos negocios.</p>
+            <img src="../img/mision.jpg"  style="margin-top: 5%;" class="img-responsive img-rounded">
           </div>
 
           <div class="col-md-6">
           <h1 class="text-center text-danger">VISION</h1>
-            <img src="../img/vision.jpg"  style="margin-top: 5%;"
-            class="img-responsive img-rounded">
-            <p class="text-center" style="margin-top: 5%;">Convertirnos en un referente de consultoría acompañando el proceso de transformación de las empresas a la nueva economía, tanto en la creación de formas innovadoras de comunicarse con sus clientes como en mejorar la dinámica de sus procesos operacionales.</p>
+            <img src="../img/vision.jpg"  style="margin-top: 5%;"class="img-responsive img-rounded">
+            <p class="text-center new-styl" style="margin-top: 5%;">Convertirnos en un referente de consultoría acompañando el proceso de transformación de las empresas a la nueva economía, tanto en la creación de formas innovadoras de comunicarse con sus clientes como en mejorar la dinámica de sus procesos operacionales.</p>
             <p></p>
           </div>
         </div>

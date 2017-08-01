@@ -69,19 +69,17 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <img src="img/asesoria.jpg"
-            class="img-responsive img-rounded">
+            <img src="img/asesoria.jpg" class="img-responsive img-rounded">
             <h1 class="text-center text-danger" style="margin-top: 8%;">ASESORIA</h1>
             <p></p>
-            <p class="text-center">Es un servicio profesional, que orienta al directivo de una organización. Es una guía de expertos que responde a dudas específicas, resuelve problemas concretos y apoya a las organizaciones en los trámites necesarios para su operación.</p>
+            <p class="text-center alinear-texto">Es un servicio profesional, que orienta al directivo de una organización. Es una guía de expertos que responde a dudas específicas, resuelve problemas concretos y apoya a las organizaciones en los trámites necesarios para su operación.</p>
             <p></p>
           </div>
           <div class="col-md-6">
-            <img src="img/consultoria.png"
-            class="img-responsive img-rounded">
+            <img src="img/consultoria.png" class="img-responsive img-rounded">
             <h1 class="text-center text-danger" style="margin-top: 8%;">CONSULTORIA</h1>
             <p></p>
-            <p class="text-center">Es un servicio profesional especializado que puede ayudar a la dirección general de las organizaciones a enfrentar situaciones que impiden la operación plena del negocio.</p>
+            <p class="text-center alinear-texto">Es un servicio profesional especializado que puede ayudar a la dirección general de las organizaciones a enfrentar situaciones que impiden la operación plena del negocio.</p>
             <p></p>
           </div>
         </div>
